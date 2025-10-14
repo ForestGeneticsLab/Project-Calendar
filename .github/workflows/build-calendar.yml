@@ -1,0 +1,29 @@
+name: Build calendar
+
+on:
+  push:
+    paths:
+      - "tasks/**"
+      - "scripts/**"
+      - ".github/workflows/build-calendar.yml"
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm ci || npm install
+      - run: npm run build
+      - name: Commit artifacts
+        run: |
+          if [[ -n "$(git status --porcelain public)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add public/events.json public/calendar.ics
+            git commit -m "Build calendar artifacts"
+            git push
+          fi

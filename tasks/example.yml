@@ -1,0 +1,8 @@
+- title: Kickoff
+  start: 2025-11-01T10:00:00
+  end: 2025-11-01T11:00:00
+  description: Team kickoff meeting
+  location: Zoom
+- title: Release Window
+  start: 2025-12-05
+  description: Code freeze and release window

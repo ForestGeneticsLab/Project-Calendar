@@ -1,0 +1,14 @@
+{
+  "name": "project-calendar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ./scripts/build.mjs"
+  },
+  "dependencies": {
+    "ics": "^3.7.6",
+    "node-ical": "^0.16.1",
+    "yaml": "^2.5.1"
+  }
+}
