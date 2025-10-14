@@ -1,6 +1,6 @@
 # Project-Calendar
 
-A GitHub Pages-friendly calendar for your project. Drop **JSON**, **YAML**, or **ICS** files into `tasks/` and a GitHub Action will merge them into:
+A GitHub Pages-friendly calendar for forest genetics lab project managment. Drop **JSON**, **YAML**, or **ICS** files into `tasks/` and a GitHub Action will merge them into:
 - `public/events.json` (used by the website)
 - `public/calendar.ics` (subscribable by Google/Apple/Outlook)
 
@@ -10,7 +10,7 @@ The site at `index.html` renders an interactive calendar via FullCalendar.
 
 ## Quick Start
 
-1. **Create a repo named `Project-Calendar`** on GitHub and enable **Pages** (Settings → Pages → Source: Deploy from a branch).  
+1. **Creates a repo named `Project-Calendar`** on GitHub and enable **Pages** (Settings → Pages → Source: Deploy from a branch).  
 2. Download and unzip this folder, then push its contents to your repo's default branch (e.g. `main`).  
 3. On your next push, the **Build calendar** workflow will produce `public/events.json` and `public/calendar.ics`.  
 4. Visit your GitHub Pages URL to see the calendar.
