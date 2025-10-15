@@ -8,6 +8,9 @@ on:
       - ".github/workflows/build-calendar.yml"
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,4 +29,6 @@ jobs:
             git add public/events.json public/calendar.ics
             git commit -m "Build calendar artifacts"
             git push
+          else
+            echo "No changes in public/, skipping commit."
           fi
