@@ -7,61 +7,34 @@
   <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
   <style>
-    :root { color-scheme: light dark; }
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; }
-    header { padding: 16px; border-bottom: 1px solid #e5e7eb; }
-    .wrap { max-width: 1100px; margin: 0 auto; padding: 16px; }
-    #calendar { max-width: 1100px; margin: 20px auto; }
-    .hint { color: #6b7280; font-size: 0.9rem; }
-    .toolbar { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
-    .toolbar a { text-decoration:none; }
-    .btn { padding: 8px 12px; border: 1px solid #e5e7eb; border-radius: 10px; }
-    .grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:8px; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; background: #f9fafb; }
+    header { background: #2563eb; color: white; padding: 16px; }
+    h1 { margin: 0; font-size: 1.5rem; }
+    #calendar { max-width: 1100px; margin: 20px auto; background: white; border-radius: 8px; padding: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .hint { text-align: center; color: #4b5563; margin-top: 10px; }
   </style>
 </head>
 <body>
-  <header class="wrap">
-    <h1>Project Calendar</h1>
-    <div class="grid">
-      <p class="hint">Admins can edit, add, or remove tasks by dropping files into the <code>tasks/</code> folder (JSON, YAML, or ICS). A GitHub Action merges them into <code>public/events.json</code> and <code>public/calendar.ics</code>.</p>
-      <div class="toolbar">
-        <a class="btn" href="./public/events.json">View events.json</a>
-        <a class="btn" href="./public/calendar.ics">Download calendar.ics</a>
-        <a class="btn" href="./README.md">How it works</a>
-      </div>
-    </div>
-  </header>
-  <div class="wrap">
-    <div id="calendar"></div>
-  </div>
+  <header><h1>Project Calendar</h1></header>
+  <div id="calendar"></div>
+  <p class="hint">Edit or add YAML/JSON files in the <code>tasks/</code> folder to update this calendar.</p>
   <script>
     document.addEventListener("DOMContentLoaded", async function () {
-      async function loadEvents() {
+      try {
         const res = await fetch("./public/events.json?ts=" + Date.now(), { cache: "no-store" });
-        if (!res.ok) return [];
-        return await res.json();
+        const events = await res.json();
+        const calendarEl = document.getElementById("calendar");
+        const calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: "dayGridMonth",
+          headerToolbar: { left: "prev,next today", center: "title", right: "dayGridMonth,timeGridWeek,timeGridDay,listWeek" },
+          events: events,
+          nowIndicator: true,
+          eventDisplay: "block"
+        });
+        calendar.render();
+      } catch (err) {
+        console.error("Error loading events.json:", err);
       }
-      const events = await loadEvents();
-      const calendarEl = document.getElementById("calendar");
-      const calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: "dayGridMonth",
-        headerToolbar: {
-          left: "prev,next today",
-          center: "title",
-          right: "dayGridMonth,timeGridWeek,timeGridDay,listWeek"
-        },
-        navLinks: true,
-        weekNumbers: true,
-        nowIndicator: true,
-        height: "auto",
-        events,
-        eventClick: function(info) {
-          if (info.event.url) {
-            // allow navigation on same tab
-          }
-        }
-      });
-      calendar.render();
     });
   </script>
 </body>

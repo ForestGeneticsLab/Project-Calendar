@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "ics": "^3.7.6",
-    "node-ical": "^0.16.1",
     "yaml": "^2.5.1"
   }
 }
