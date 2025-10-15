@@ -14,10 +14,45 @@
     "location": "NR213"
   },
   {
+    "title": "Lab Inventory",
+    "start": "2025-10-24T12:00:00",
+    "end": "2025-10-24T17:00:00",
+    "description": "Assigned: MJM",
+    "location": "NR213"
+  },
+  {
     "title": "Seed Extraction Training",
     "start": "2025-10-27T12:00:00",
     "end": "2025-10-27T17:00:00",
     "description": "Assigned: MJM and TH",
+    "location": "TRC"
+  },
+  {
+    "title": "Seed Extraction Cone Processing",
+    "start": "2025-10-28T12:00:00",
+    "end": "2025-10-28T17:00:00",
+    "description": "Assigned: MJM",
+    "location": "TRC"
+  },
+  {
+    "title": "Seed Extraction Cone Processing",
+    "start": "2025-10-29T12:00:00",
+    "end": "2025-10-29T17:00:00",
+    "description": "Assigned: MJM",
+    "location": "TRC"
+  },
+  {
+    "title": "Seed Extraction Cone Processing",
+    "start": "2025-10-30T12:00:00",
+    "end": "2025-10-30T17:00:00",
+    "description": "Assigned: TH",
+    "location": "TRC"
+  },
+  {
+    "title": "Seed Extraction Cone Processing",
+    "start": "2025-10-31T12:00:00",
+    "end": "2025-10-31T17:00:00",
+    "description": "Assigned: TH",
     "location": "TRC"
   }
 ]
