@@ -1,4 +1,4 @@
-# Project-Calendar
+# Forest Genetics Lab - Project-Calendar
 
 A GitHub Pages-friendly calendar for forest genetics lab project managment. Drop **JSON**, **YAML**, or **ICS** files into `tasks/` and a GitHub Action will merge them into:
 - `public/events.json` (used by the website)
