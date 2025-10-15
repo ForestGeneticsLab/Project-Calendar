@@ -8,6 +8,7 @@ on:
       - ".github/workflows/build-calendar.yml"
   workflow_dispatch: {}
 
+# 👇 add this block
 permissions:
   contents: write
 
