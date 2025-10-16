@@ -1,6 +1,6 @@
 # Forest Genetics Lab - Project-Calendar
 
-A GitHub Pages-friendly calendar for forest genetics lab project managment. Drop **JSON**, **YAML**, or **ICS** files into `tasks/` and a GitHub Action will merge them into:
+A GitHub Pages-friendly calendar for forest genetics lab project managment. Drop **JSON**, **YAML**, and **ICS** files into the appropriate `folder/` and a GitHub Action will merge them into:
 - `public/events.json` (used by the website)
 - `public/calendar.ics` (subscribable by Google/Apple/Outlook)
 
@@ -8,7 +8,7 @@ The site at `index.html` renders an interactive calendar via FullCalendar.
 
 ---
 ### How to use
-1. Create a repo named **Project-Calendar** on GitHub.
+1. Created a repo named **Project-Calendar** on GitHub.
 2. Add/edit YAML or JSON files in the `tasks/` folder.
 3. The workflow will rebuild the public calendar automatically.
 
@@ -18,9 +18,9 @@ npm install
 npm run build
 ```
 Then open `index.html`.
+
 ## Quick Start
- 
-4. Visit your GitHub Pages URL to see the calendar.
+4. Visit our GitHub Pages URL to see the calendar.
 https://forestgeneticslab.github.io/Project-Calendar/
 
 > Admins can **edit**, **add**, or **remove** tasks by modifying files in the `tasks/` folder. Every push rebuilds the merged calendar.
@@ -61,7 +61,7 @@ Any valid VEVENTs are parsed and merged.
 
 ## Security & Roles
 
-- This is a static site; **admins edit tasks via GitHub** (web editor/PRs).  
+- This is a static site; **admins edit tasks via GitHub** (web editor/PRs) or **GitHub desktop**.  
 - Use **branch protection** and optional **CODEOWNERS** to control who can change the schedule.  
 - No secrets are required; the workflow only reads repo files.
 
