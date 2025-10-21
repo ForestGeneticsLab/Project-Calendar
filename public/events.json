@@ -14,14 +14,14 @@
     "location": "NR213"
   },
   {
-    "title": "Lab Inventory - MJM - NR213",
+    "title": "EHS Lab Pre-inspection-  - NR213",
     "start": "2025-10-24T12:00:00",
     "end": "2025-10-24T17:00:00",
     "description": "Assigned: MJM",
     "location": "NR213"
   },
   {
-    "title": "Seed Extraction Training",
+    "title": "Seed Extraction Training - MJM and TH - TRC",
     "start": "2025-10-27T12:00:00",
     "end": "2025-10-27T17:00:00",
     "description": "Assigned: MJM and TH",
@@ -31,13 +31,6 @@
     "title": "Seed Extraction Cone Processing",
     "start": "2025-10-28T12:00:00",
     "end": "2025-10-28T17:00:00",
-    "description": "Assigned: MJM",
-    "location": "TRC"
-  },
-  {
-    "title": "Seed Extraction Cone Processing",
-    "start": "2025-10-29T12:00:00",
-    "end": "2025-10-29T17:00:00",
     "description": "Assigned: MJM",
     "location": "TRC"
   },
@@ -53,6 +46,13 @@
     "start": "2025-10-31T12:00:00",
     "end": "2025-10-31T17:00:00",
     "description": "Assigned: TH",
+    "location": "TRC"
+  },
+  {
+    "title": "Seed Extraction Cone Processing - MJM - TRC",
+    "start": "2025-11-5T12:00:00",
+    "end": "2025-11-5T17:00:00",
+    "description": "Assigned: MJM",
     "location": "TRC"
   }
 ]
