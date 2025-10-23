@@ -61,5 +61,12 @@
     "end": "2025-11-05T17:00:00",
     "description": "Assigned: Nope",
     "location": "NR213"
+  },
+  {
+    "title": "OPEN - TH - TRC",
+    "start": "2025-11-06T12:00:00",
+    "end": "2025-11-06T17:00:00",
+    "description": "Assigned: TH",
+    "location": "OPEN"
   }
 ]
