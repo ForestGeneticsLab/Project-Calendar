@@ -51,3 +51,9 @@
   end: 2025-11-05T17:00:00
   location: NR213
   description: "Assigned: Nope"
+
+- title: OPEN - TH - TRC
+  start: 2025-11-06T12:00:00
+  end: 2025-11-06T17:00:00
+  location: OPEN
+  description: "Assigned: TH"
