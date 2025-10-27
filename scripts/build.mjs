@@ -15,7 +15,8 @@ function normalize(e) {
     start: e.start,
     end: e.end,
     description: e.description || "",
-    location: e.location || ""
+    location: e.location || "",
+    color: e.color || null
   };
 }
 

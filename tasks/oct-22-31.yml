@@ -3,54 +3,63 @@
   end: 2025-10-22T17:00:00
   location: NR213
   description: "Assigned: MJM"
+  color: "#3b82f6" # Blue for inventory tasks
 
 - title: Lab Inventory - TH - NR213
   start: 2025-10-23T12:00:00
   end: 2025-10-23T17:00:00
   location: NR213
   description: "Assigned: TH"
+  color: "#3b82f6"
 
 - title: EHS Lab Pre-inspection-  - NR213
   start: 2025-10-24T12:00:00
   end: 2025-10-24T17:00:00
   location: NR213
   description: "Assigned: MJM"
+  color: "#ef4444" # Red for inspections
 
 - title: Seed Extraction Training - MJM and TH - TRC
   start: 2025-10-27T12:00:00
   end: 2025-10-27T17:00:00
   location: TRC
   description: "Assigned: MJM and TH"
+  color: "#22c55e" # Green for extraction/processing
 
 - title: Seed Extraction Cone Processing
   start: 2025-10-28T12:00:00
   end: 2025-10-28T17:00:00
   location: TRC
   description: "Assigned: MJM"
+  color: "#22c55e"
 
 - title: Seed Extraction Cone Processing
   start: 2025-10-30T12:00:00
   end: 2025-10-30T17:00:00
   location: TRC
   description: "Assigned: TH"
+  color: "#22c55e"
 
 - title: Seed Extraction Cone Processing
   start: 2025-10-31T12:00:00
   end: 2025-10-31T17:00:00
   location: TRC
   description: "Assigned: TH"
+  color: "#22c55e"
 
 - title: Seed Extraction Cone Processing - MJM - TRC
   start: 2025-11-03T12:00:00
   end: 2025-11-03T17:00:00
   location: TRC
   description: "Assigned: MJM"
+  color: "#22c55e"
 
 - title: Lab Inventory - TEST - NR213
   start: 2025-11-05T12:00:00
   end: 2025-11-05T17:00:00
   location: NR213
   description: "Assigned: Nope"
+  color: "#3b82f6"
 
 - title: OPEN - TH - TRC
   start: 2025-11-06T12:00:00
