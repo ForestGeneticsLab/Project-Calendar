@@ -17,7 +17,7 @@
   end: 2025-10-24T17:00:00
   location: NR213
   description: "Assigned: MJM"
-  color: "#ef4444" # Red for inspections
+  color: "#f97316" # Red for inspections
 
 - title: Seed Extraction Training - MJM and TH - TRC
   start: 2025-10-27T12:00:00
@@ -67,3 +67,9 @@
   location: OPEN
   description: "Assigned: TH"
 
+- title: 🧬 DNA Extraction
+  start: 2025-10-28T08:00:00
+  end: 2025-10-28T20:00:00
+  location: NR203
+  description: "Assigned: RB"
+  color: "#ec4899" # Purple for DNA extraction
