@@ -21,7 +21,7 @@
     "end": "2025-10-24T17:00:00",
     "description": "Assigned: MJM",
     "location": "NR213",
-    "color": "#ef4444"
+    "color": "#f97316"
   },
   {
     "title": "Seed Extraction Training - MJM and TH - TRC",
@@ -30,6 +30,14 @@
     "description": "Assigned: MJM and TH",
     "location": "TRC",
     "color": "#22c55e"
+  },
+  {
+    "title": "🧬 DNA Extraction",
+    "start": "2025-10-28T08:00:00",
+    "end": "2025-10-28T20:00:00",
+    "description": "Assigned: RB",
+    "location": "NR203",
+    "color": "#ec4899"
   },
   {
     "title": "Seed Extraction Cone Processing",
