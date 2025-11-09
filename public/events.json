@@ -102,5 +102,37 @@
     "description": "Assigned: TH",
     "location": "TRC",
     "color": "#22c55e"
+  },
+  {
+    "title": "Seed Extraction Cone Processing - MJM - TRC",
+    "start": "2025-11-10T12:00:00",
+    "end": "2025-11-10T17:00:00",
+    "description": "Assigned: MJM",
+    "location": "TRC",
+    "color": "#22c55e"
+  },
+  {
+    "title": "Mitchell MS Defense 🧬 👨‍🦱",
+    "start": "2025-11-13T08:00:00",
+    "end": "2025-11-13T20:00:00",
+    "description": "FGL",
+    "location": "NR216",
+    "color": "#1274b5"
+  },
+  {
+    "title": "Seed Extraction Cone Processing - TH - TRC",
+    "start": "2025-11-14T12:00:00",
+    "end": "2025-11-14T17:00:00",
+    "description": "Assigned: TH",
+    "location": "TRC",
+    "color": "#22c55e"
+  },
+  {
+    "title": "A GIFT SEED - MJM - TRC",
+    "start": "2025-12-11T12:00:00",
+    "end": "2025-12-11T17:00:00",
+    "description": "Assigned: MJM",
+    "location": "TRC",
+    "color": "#3b82f6"
   }
 ]
