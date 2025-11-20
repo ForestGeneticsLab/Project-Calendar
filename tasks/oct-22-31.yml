@@ -138,13 +138,6 @@
   description: "Assigned: MJM"
   color: "#22c55e"
 
-- title: A GIFT SEED - Boarder Tree Planting - TH - TRC
-  start: 2025-11-18T12:00:00
-  end: 2025-11-18T17:00:00
-  location: TRC
-  description: "Assigned: TH"
-  color: "#3b82f6"
-
 - title: Seed Extraction Cone Processing - MJM - TRC
   start: 2025-11-19T12:00:00
   end: 2025-11-19T17:00:00
@@ -152,16 +145,16 @@
   description: "Assigned: MJM"
   color: "#22c55e"
 
-- title: Seed Extraction Cone Processing - TH - TRC
+- title: A GIFT SEED - Boarder Tree Planting - TH - TRC
   start: 2025-11-20T12:00:00
   end: 2025-11-20T17:00:00
   location: TRC
   description: "Assigned: TH"
-  color: "#22c55e"
-
-- title: Seed Extraction Cone Processing - TH - TRC
+  color: "#3b82f6"
+  
+- title: Lab Work - Pipett - TH - TRC
   start: 2025-11-21T12:00:00
   end: 2025-11-21T17:00:00
-  location: TRC
+  location: NR
   description: "Assigned: TH"
   color: "#22c55e"
