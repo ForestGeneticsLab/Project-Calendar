@@ -165,3 +165,38 @@
   location: TRC
   description: "Assigned: MJM"
   color: "#22c55e"
+
+- title: FGL winter break work - TH - NR/TRC
+  start: 2025-12-15T08:00:00
+  end: 2025-12-15T12:00:00
+  location: NR/TRC as needed
+  description: "Assigned: TH 4 hours/day 20hrs/week"
+  color: "#22c55e"
+
+- title: FGL winter break work - TH - NR/TRC
+  start: 2025-12-16T08:00:00
+  end: 2025-12-16T12:00:00
+  location: NR/TRC as needed
+  description: "Assigned: TH 4 hours/day 20hrs/week"
+  color: "#22c55e"
+
+- title: FGL winter break work - TH - NR/TRC
+  start: 2025-12-17T08:00:00
+  end: 2025-12-17T12:00:00
+  location: NR/TRC as needed
+  description: "Assigned: TH 4 hours/day 20hrs/week"
+  color: "#22c55e"
+
+- title: FGL winter break work - TH - NR/TRC
+  start: 2025-12-18T08:00:00
+  end: 2025-12-18T12:00:00
+  location: NR/TRC as needed
+  description: "Assigned: TH 4 hours/day 20hrs/week"
+  color: "#22c55e"
+
+- title: FGL winter break work - TH - NR/TRC
+  start: 2025-12-19T08:00:00
+  end: 2025-12-19T12:00:00
+  location: NR/TRC as needed
+  description: "Assigned: TH 4 hours/day 20hrs/week"
+  color: "#22c55e"
