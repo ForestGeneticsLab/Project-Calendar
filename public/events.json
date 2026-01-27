@@ -1,5 +1,13 @@
 [
   {
+    "title": "Extractions - MJM - NR213",
+    "start": "2026-1-27T08:00:00",
+    "end": "2026-1-27T17:00:00",
+    "description": "Assigned: MJM",
+    "location": "NR213",
+    "color": "#22c55e"
+  },
+  {
     "title": "Lab Inventory - MJM - NR213",
     "start": "2025-10-22T12:00:00",
     "end": "2025-10-22T17:00:00",
